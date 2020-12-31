@@ -38,7 +38,7 @@ Once your repository is set up, practice what you learned today to create a port
 - [x]  Information about you in place of the given placeholder
 - [x]  A `My Projects` button that links to the projects page
 - [x]  A `Contact Me` button that links to the contact page
-- [ x]  Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page [I don't use these]
+- [x]  Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page [I don't use these]
 
 ### Task 3: Stretch Goals
 
@@ -47,7 +47,8 @@ The following goals are designed to stretch your knowledge and may require addit
 - [--] Make your webpage work at different browser widths, including mobile (this is done on the a future assignment, when it is done I will link it here)
 - [x] Add CSS animations
 - [x] Design and execute your own wireframe for `About`, `Projects`, and `Contact` pages
-- [ ] Host your website on Netlify.com
+- [x] Host your website on Netlify.com can be found @ https://quizzical-khorana-19402d.netlify.app/ [![Netlify Status](https://api.netlify.com/api/v1/badges/4da7ec1e-8711-4138-b483-ca01ebf3b440/deploy-status)](https://app.netlify.com/sites/quizzical-khorana-19402d/deploys)
+
 
 ## FAQs
 
