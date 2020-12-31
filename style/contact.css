@@ -1,0 +1,93 @@
+/* http://meyerweb.com/eric/tools/css/reset/    v2.0 | 20110126   License: none (public domain)*/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline; } 
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 	display: block; }
+body { 	line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { 	quotes: none; } 
+blockquote:before, blockquote:after, q:before, q:after { 	content: ''; 	content: none; }
+table { 	border-collapse: collapse; 	border-spacing: 0;}
+
+body{
+    margin: 50px auto;
+    font-size: 62.5%;
+    background-color:  gray;
+    color: white;
+    max-width: 600px;
+}
+.page-wrap{
+     display: flex;
+}
+.nav-panel{
+    width: 200px;
+    padding-bottom: 6rem;
+    background-image: url(https://picsum.photos/id/1021/200/200);
+    background-size: cover;
+    image-rendering: pixelated;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 30%;
+    padding-top: 3em;
+}
+nav a{
+    border-radius: 15px 50px 30px;
+    background-color: black;
+    padding: 0.5em 2em; 
+    margin: 0.6em;
+    font-size: 1.8em;
+    color: plum;
+    text-decoration: none;    
+}
+main{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(173, 127, 173);
+}
+.content-a{
+    display: flex;
+    padding-bottom: 3em;
+}
+.top-text{
+    width: 60%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 3em;
+    padding: 1em .5em;
+    color:indigo;
+    text-shadow: 2px 2px rgba(255, 255, 240, 0.384) ;
+}
+.top-text{
+    padding: .5em 3em;
+}
+.top-text p{
+    font-size: 1.3em;
+    padding: 1em .7em;
+}
+.link a{
+    font-size: 1.8em;
+    display: block;
+    text-align: right;
+}
+.top-img{
+    padding: 1em;
+}
+.long-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 5em;
+}
+footer{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 1em;
+}
