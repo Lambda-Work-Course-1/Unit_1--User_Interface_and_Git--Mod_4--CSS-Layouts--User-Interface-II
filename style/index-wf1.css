@@ -42,6 +42,14 @@ nav a{
     border: 1px solid black;
     text-decoration: none;
 }
+nav a:hover{
+    animation: blink ease 1s infinite;
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+/* I should stend a few days looking at more dynamic animations that I would feel comfortable putting into an actual project */
 nav a:nth-child(1){
     color: whitesmoke;
     background-color: black;
