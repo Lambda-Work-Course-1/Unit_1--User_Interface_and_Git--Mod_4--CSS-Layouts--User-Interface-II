@@ -1,1 +1,144 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/    v2.0 | 20110126   License: none (public domain)*/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline; } 
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 	display: block; }
+body { 	line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { 	quotes: none; } 
+blockquote:before, blockquote:after, q:before, q:after { 	content: ''; 	content: none; }
+table { 	border-collapse: collapse; 	border-spacing: 0;}
+
+
+body{
+    margin: auto;
+    font-size: 62.5%;
+    background-color: darkslategrey;
+    color: white;
+}
+p{
+    font-size: 1.1em;
+    padding: 0.5em 3.5em;
+}
+.wrap{
+    margin: auto;
+    max-width: 900px;
+    background-color: rgb(104, 104, 104);
+}
+header{
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1, h2{
+    font-size: 3em;
+    font-family: Righteous;
+    color:white;
+    text-shadow: 1px 2px black;
+    letter-spacing: .5em;
+    padding: 1em;
+}
+nav{
+    padding: 1em;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;  
+}
+nav a{
+    max-width: 20%;
+    font-size: 1.5em;    
+    color: black;
+    background-color: whitesmoke;
+    padding: .5em .25em;
+    border: 1px solid black;
+    text-decoration: none;
+}
+nav a:nth-child(6){
+    color: whitesmoke;
+    background-color: black;
+}
+/* there has to be a better way to highlight current navigation */
+.info-box img{
+padding-top: 2em;
+max-width: 900px;
+max-height: 350px;
+}
+header p{
+    font-size: 1.8em;
+    padding: 1em;
+}
+.portfolio-gallery{
+    display: flex;
+    flex-direction: row;
+}
+.portfolio-gallery div{
+    padding: 0.7em;
+    font-size: 1.3em;
+    text-align: center;
+    flex-basis: 20%;
+    align-self:center;
+
+}
+.portfolio-gallery div:first-child{
+    padding-left: 0;
+    font-size: 1.3em;
+    text-align: center;
+    flex-basis: 20%;
+}
+.portfolio-gallery div p{
+    padding: .5em;
+    font-size: 1.5em;
+}
+.portfolio-gallery img{
+   min-width: 100%;
+}
+.info{
+    padding: 2em;
+    font-size: 2em;
+    line-height: 1.5em;
+    text-align: left;
+}
+.portfolio-gallery div p a{
+    text-decoration: 2px overline;
+    text-decoration-color: tomato;
+    color: white;
+    line-height: 2rem;
+}
+footer{
+    background:tomato;
+    font-size: 1.9em;
+    color: black;
+    text-align: center;
+    padding: 2em;
+}
+footer p{
+    padding-bottom: 1em;;
+}
+footer button{
+    font-size: .9em;
+    font-weight: bold;
+    color: white;
+    width: fit-content;
+	background:linear-gradient(to bottom, #3b3939 5%, #000000 100%);
+	background-color:#000000;
+	border:1px solid #000000;
+	display:inline-block;
+    cursor:pointer;
+    padding: 1em 2em;
+}
+button{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    width: fit-content;
+	background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+	background-color:#f24537;
+	border:1px solid #d02718;
+	display:inline-block;
+    cursor:pointer;
+}
